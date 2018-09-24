@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/my_gradient"
 
     tools:context="com.example.smitha.parkingassistant.Firstscreen">
 
@@ -14,7 +15,7 @@
         android:layout_height="300dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="84dp"
-        android:src="@drawable/carlogo" />
+        android:layout_marginBottom="98dp"
+        android:src="@drawable/logo3" />
 
 </RelativeLayout>
