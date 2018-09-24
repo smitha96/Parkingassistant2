@@ -6,18 +6,19 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/my_gradient"
     android:alpha="0.7"
 
     tools:context="com.example.smitha.parkingassistant.Sign_in">
     <LinearLayout
+        android:layout_centerInParent="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+
+
+
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="30dp"
-
-
-
+        android:layout_margin="27dp"
         >
 
 
@@ -29,6 +30,8 @@
               android:textStyle="bold"
             android:drawableLeft="@drawable/ic_action_name"
             android:hint="Username"
+            android:backgroundTint="@color/white"
+            android:textColorHighlight="@color/white"
             android:textAlignment="center"
             android:textColorHint="@color/white"
             android:textSize="25dp" />
@@ -37,6 +40,8 @@
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+
             android:drawableLeft="@drawable/ic_action_password"
             android:hint="Password"
             android:textAlignment="center"
@@ -51,8 +56,16 @@
             android:textSize="20dp"
             android:layout_marginTop="35dp"
             android:background="@drawable/rounded"
+
             android:layout_width="match_parent"
             android:layout_height="70sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="35dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="New User?Sign up to create an account"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
