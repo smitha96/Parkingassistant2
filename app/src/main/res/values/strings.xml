@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Parking assistant</string>
+    <string name="title_activity_user_login">UserLogin</string>
+</resources>
