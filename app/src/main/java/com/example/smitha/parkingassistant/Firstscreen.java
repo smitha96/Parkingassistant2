@@ -22,7 +22,7 @@ public class Firstscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent homeIntent=new Intent(Firstscreen.this,UserLogin.class);
+                Intent homeIntent=new Intent(Firstscreen.this,Sign_in.class);
                 startActivity(homeIntent);
                 finish();
             }
