@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smitha.parkingassistant.Signup">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:drawableLeft="@drawable/ic_action_user_green"
+            android:hint="Username"
+            android:textAlignment="center"
+
+            android:textColorHint="@color/slategrey"
+            android:textSize="25dp" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/slategrey"
+            android:drawableLeft="@drawable/email_icon"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+
+            android:textAlignment="center"
+            android:textColorHint="@color/slategrey"
+            android:textSize="25dp" />
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/slategrey"
+            android:drawableLeft="@drawable/phone_number"
+            android:hint="Phonenumber"
+            android:inputType="number"
+
+            android:textAlignment="center"
+            android:textColorHint="@color/slategrey"
+            android:textSize="25dp" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/slategrey"
+            android:textColorHint="@color/slategrey"
+            android:textSize="25dp" />
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:hint="confirm password"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:textColor="@color/slategrey"
+            android:textColorHint="@color/slategrey"
+            android:textSize="25dp" />
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:hint="License plate number"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:textColor="@color/slategrey"
+            android:textColorHint="@color/slategrey"
+            android:textSize="25dp" />
+
+        <Button
+            android:padding="20dp"
+
+            android:text="SIGN UP"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded"
+
+            android:layout_width="match_parent"
+            android:layout_height="70sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

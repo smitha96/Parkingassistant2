@@ -6,8 +6,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/my_gradient"
-    android:alpha="0.7"
+
 
     tools:context="com.example.smitha.parkingassistant.Sign_in">
     <LinearLayout
@@ -23,53 +22,53 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:src="@drawable/logo3" />
-
+            android:layout_height="wrap_content"
+            android:src="@drawable/parking"/>
         <EditText
             android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-              android:textStyle="bold"
-            android:drawableLeft="@drawable/ic_action_name"
-            android:hint="Username"
-            android:backgroundTint="@color/white"
-            android:textColorHighlight="@color/white"
+            android:layout_marginTop="35dp"
+
+            android:drawableLeft="@drawable/email_icon"
+            android:hint="Email ID"
+            android:backgroundTint="@color/slategrey"
+            android:textColorHighlight="@color/slategrey"
             android:textAlignment="center"
-            android:textColorHint="@color/white"
-            android:textSize="25dp" />
+
+            android:textColorHint="@color/slategrey"
+            android:textSize="20dp" />
         <EditText
             android:padding="20dp"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/slategrey"
 
-            android:drawableLeft="@drawable/ic_action_password"
+            android:drawableLeft="@drawable/ic_action_name"
             android:hint="Password"
             android:textAlignment="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:inputType="textPassword"
-            android:textColorHint="@color/white"
-            android:textSize="25dp" />
+            android:textColorHint="@color/slategrey"
+            android:textSize="20dp" />
         <Button
-            android:padding="20dp"
-            android:textStyle="bold"
+            android:padding="15dp"
+
             android:text="SIGN IN"
             android:textSize="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="25dp"
             android:background="@drawable/rounded"
-
+            android:textColor="@color/white"
             android:layout_width="match_parent"
-            android:layout_height="70sp" />
+            android:layout_height="wrap_content" />
         <TextView
             android:layout_width="match_parent"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="25dp"
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:text="New User?Sign up to create an account"
-            android:textColor="@color/white"/>
+            android:textColor="@color/slategrey"/>
 
     </LinearLayout>
 
