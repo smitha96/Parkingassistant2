@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.smitha.parkingassistant.Sign_in">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+
+
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="27dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/parking"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="45dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+            android:text="You are just one step away!Upload your driving license to complete the registration process "
+            android:textColor="@color/slategrey"/>
+        <EditText
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+
+            android:drawableLeft="@drawable/ic_action_name"
+            android:hint="Vehicle number"
+            android:backgroundTint="@color/slategrey"
+            android:textColorHighlight="@color/slategrey"
+            android:textAlignment="center"
+
+            android:textColorHint="@color/slategrey"
+            android:textSize="20dp" />
+        <Button
+            android:padding="10dp"
+
+            android:text="Upload"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/file_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:padding="15dp"
+
+            android:text="SIGN UP"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded"
+            android:textColor="@color/white"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
