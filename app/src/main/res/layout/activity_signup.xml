@@ -17,6 +17,7 @@
             android:src="@drawable/parking"/>
 
         <EditText
+            android:id="@+id/editTextEmail"
             android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,6 +33,7 @@
             android:textSize="20dp" />
 
         <EditText
+            android:id="@+id/editTextPassword"
             android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,6 +47,7 @@
             android:textColorHint="@color/slategrey"
             android:textSize="20dp" />
         <EditText
+            android:id="@+id/editTextConfirmPassword"
             android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,9 +62,10 @@
             android:textSize="20dp" />
 
         <Button
+            android:id="@+id/buttonSignup"
             android:padding="15dp"
 
-            android:text="NEXT>>"
+            android:text="CREATE ACCOUNT"
 
             android:textSize="20dp"
             android:layout_marginTop="35dp"
