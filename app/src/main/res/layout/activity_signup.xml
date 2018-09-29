@@ -20,7 +20,7 @@
             android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="50dp"
 
             android:textColor="@color/slategrey"
             android:drawableLeft="@drawable/email_icon"
@@ -29,7 +29,7 @@
 
             android:textAlignment="center"
             android:textColorHint="@color/slategrey"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <EditText
             android:padding="10dp"
@@ -37,44 +37,39 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
 
-            android:drawableLeft="@drawable/ic_action_name"
+            android:drawableLeft="@drawable/lock"
             android:hint="Password"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textColor="@color/slategrey"
             android:textColorHint="@color/slategrey"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
         <EditText
             android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
 
-            android:drawableLeft="@drawable/ic_action_name"
+            android:drawableLeft="@drawable/lock"
             android:hint="Confirm password"
             android:textAlignment="center"
             android:inputType="textPassword"
             android:textColor="@color/slategrey"
             android:textColorHint="@color/slategrey"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
             android:padding="15dp"
 
             android:text="NEXT>>"
+
             android:textSize="20dp"
             android:layout_marginTop="35dp"
             android:background="@drawable/rounded"
             android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_marginTop="25dp"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="You are just one step away from registration!!"
-            android:textColor="@color/slategrey"/>
+        <
 
     </LinearLayout>
 
